@@ -1,3 +1,21 @@
-baseurl: /blog
+# Site settings
+title: blog title
+email: zqzhao5@gmail.com
+description: "Really cool blog about ... something"
+baseurl: "/blog"
+url: "http://martian101.github.io/blog"
+twitter_username: zqzhao5
+github_username: Martian101
+disqus_username: false
+isso_domain: comments.martian101.github.io/blog
 
-img_url: http://martian101.github.io/blog/assets/images
+# Build settings
+markdown: redcarpet
+permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,18 +1,17 @@
 ---
-layout: default
-title: 我的Blog
+layout: blank
 ---
-
-<h2>{{ page.title }}</h2>
-
-<p>最新文章</p>
-
-<ul>
-
-　　{% for post in site.posts %}
-
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
-　　{% endfor %}
-
-</ul>
+      {% for page in site.posts %}
+      <article>
+        <header>
+          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+          <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time>{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</p>
+        </header>
+        <div>
+          {{ page.excerpt }}
+        </div>
+        <footer>
+          <a href="{{ page.url }}">read more</a>
+        </footer>
+      </article>
+      {% endfor %}
