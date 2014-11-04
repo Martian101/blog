@@ -2,8 +2,8 @@
 title: 码路
 email: zqzhao5@gmail.com
 description: "Really cool blog about ... something"
-baseurl: "/blog"
-url: "http://martian101.github.io"
+baseurl: "/"
+url: "http://martian101.github.io/blog"
 twitter_username: zqzhao5
 github_username: Martian101
 disqus_username: false
