@@ -2,8 +2,8 @@
 title: 码路
 email: zqzhao5@gmail.com
 description: "Really cool blog about ... something"
-baseurl: "/"
-url: "http://martian101.github.io/blog"
+baseurl: "/blog"
+url: "http://martian101.github.io"
 twitter_username: zqzhao5
 github_username: Martian101
 disqus_username: false
@@ -11,7 +11,7 @@ isso_domain: comments.martian101.github.io/blog
 
 # Build settings
 markdown: redcarpet
-permalink: /:title/
+permalink: /blog/:title/
 
 defaults:
   -

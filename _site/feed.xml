@@ -3,10 +3,10 @@
   <channel>
     <title>码路</title>
     <description>Really cool blog about ... something</description>
-    <link>http://martian101.github.io/blog/</link>
-    <atom:link href="http://martian101.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Nov 2014 11:03:19 +0800</pubDate>
-    <lastBuildDate>Wed, 05 Nov 2014 11:03:19 +0800</lastBuildDate>
+    <link>http://martian101.github.io/blog</link>
+    <atom:link href="http://martian101.github.io/blogfeed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 05 Nov 2014 11:05:05 +0800</pubDate>
+    <lastBuildDate>Wed, 05 Nov 2014 11:05:05 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -22,7 +22,7 @@
 </description>
         <pubDate>Wed, 11 Dec 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E8%B0%83%E5%BA%A6/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E8%B0%83%E5%BA%A6/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/%E8%B5%84%E6%BA%90%E5%88%86%E9%85%8D%E8%B0%83%E5%BA%A6/</guid>
         
         
       </item>
@@ -41,7 +41,7 @@
 </description>
         <pubDate>Tue, 10 Dec 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/%E6%97%A5%E5%BF%97/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//%E6%97%A5%E5%BF%97/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/%E6%97%A5%E5%BF%97/</guid>
         
         
       </item>
@@ -69,7 +69,7 @@
 </description>
         <pubDate>Thu, 14 Nov 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/%E7%8F%BE%E5%9C%A8%E7%9A%84%E7%8B%80%E6%85%8B/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//%E7%8F%BE%E5%9C%A8%E7%9A%84%E7%8B%80%E6%85%8B/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/%E7%8F%BE%E5%9C%A8%E7%9A%84%E7%8B%80%E6%85%8B/</guid>
         
         
       </item>
@@ -87,7 +87,7 @@
 </description>
         <pubDate>Sun, 03 Nov 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B/</guid>
         
         
       </item>
@@ -105,7 +105,7 @@
 </description>
         <pubDate>Sun, 03 Nov 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/%E6%98%8E%E6%97%A5%E8%AE%A1%E5%88%92/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//%E6%98%8E%E6%97%A5%E8%AE%A1%E5%88%92/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/%E6%98%8E%E6%97%A5%E8%AE%A1%E5%88%92/</guid>
         
         
       </item>
@@ -123,7 +123,7 @@ ML&lt;img src=&quot;/2013-11-03-machine.png&quot; alt=&quot;ML&quot;&gt;&lt;/p&g
 </description>
         <pubDate>Sun, 03 Nov 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/machine/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//machine/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/machine/</guid>
         
         
       </item>
@@ -141,7 +141,7 @@ ML&lt;img src=&quot;/2013-11-03-machine.png&quot; alt=&quot;ML&quot;&gt;&lt;/p&g
 </description>
         <pubDate>Fri, 01 Nov 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/python/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//python/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/python/</guid>
         
         
       </item>
@@ -159,7 +159,7 @@ ML&lt;img src=&quot;/2013-11-03-machine.png&quot; alt=&quot;ML&quot;&gt;&lt;/p&g
 </description>
         <pubDate>Thu, 10 Oct 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/picture/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//picture/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/picture/</guid>
         
         
       </item>
@@ -174,7 +174,7 @@ ML&lt;img src=&quot;/2013-11-03-machine.png&quot; alt=&quot;ML&quot;&gt;&lt;/p&g
 </description>
         <pubDate>Wed, 09 Oct 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/hello/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//hello/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/hello/</guid>
         
         
       </item>
@@ -189,7 +189,7 @@ ML&lt;img src=&quot;/2013-11-03-machine.png&quot; alt=&quot;ML&quot;&gt;&lt;/p&g
 </description>
         <pubDate>Wed, 09 Oct 2013 00:00:00 +0800</pubDate>
         <link>http://martian101.github.io/blog/hello/</link>
-        <guid isPermaLink="true">http://martian101.github.io/blog//hello/</guid>
+        <guid isPermaLink="true">http://martian101.github.io/blog/blog/hello/</guid>
         
         
       </item>
