@@ -1,17 +1,29 @@
 ---
-layout: blank
+layout: default
 ---
-      {% for page in site.posts %}
-      <article>
-        <header>
-          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-          <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time>{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</p>
-        </header>
-        <div>
-          {{ page.excerpt }}
-        </div>
-        <footer>
-          <a href="{{ page.url }}">read more</a>
-        </footer>
-      </article>
-      {% endfor %}
+<div id="home" class="page-content wc-container">
+	<div class="posts">
+  		{% for post in site.posts limit:10 %}
+  			<div class="post">
+    			<h3 class="post-title">
+			      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+			        {{ post.title }}
+			      </a>
+    			</h3>
+
+    			<span class="post-date">{{ post.date | date_to_string }}</span>    			
+  				<p>
+	  				{{ post.description }}	
+  				</p>
+  				<p>
+  					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
+  						Read More
+					</a>
+  				</p>
+  			</div>
+  		{% endfor %}
+	</div>
+	<div class="post-footer">
+		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
+	</div>
+</div>
