@@ -11,7 +11,7 @@ isso_domain: comments.martian101.github.io/blog
 
 # Build settings
 markdown: redcarpet
-permalink: /:title/
+permalink: /blog/:title/
 
 defaults:
   -
